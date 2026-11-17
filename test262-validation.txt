@@ -1,0 +1,4 @@
+PrimJS 8f09025 and 4a406c9cd66a, Test262 997888324e42013578eb935c2a18a2027ecb8c81
+macOS ARM64 and Android 15 ARM64. Each baseline and patched run:
+Result: 1289/39614 errors, 1314 excluded, 5718 skipped
+Exact failed-case paths were identical for all four reports.

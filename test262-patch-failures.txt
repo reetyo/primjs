@@ -1,0 +1,1289 @@
+1	annexB/built-ins/Array/from/iterator-method-emulates-undefined.js
+1	annexB/built-ins/Object/is/emulates-undefined.js
+1	annexB/built-ins/RegExp/legacy-accessors/index/prop-desc.js
+1	annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.js
+1	annexB/built-ins/RegExp/legacy-accessors/input/this-cross-realm-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.js
+1	annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-subclass-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/lastParen/prop-desc.js
+1	annexB/built-ins/RegExp/legacy-accessors/lastParen/this-cross-realm-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/leftContext/prop-desc.js
+1	annexB/built-ins/RegExp/legacy-accessors/leftContext/this-cross-realm-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/rightContext/prop-desc.js
+1	annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/rightContext/this-not-regexp-constructor.js
+1	annexB/built-ins/RegExp/legacy-accessors/rightContext/this-subclass-constructor.js
+1	annexB/built-ins/RegExp/prototype/compile/this-cross-realm-instance.js
+1	annexB/built-ins/RegExp/prototype/compile/this-subclass-instance.js
+1	annexB/built-ins/String/prototype/match/custom-matcher-emulates-undefined.js
+1	annexB/built-ins/String/prototype/matchAll/custom-matcher-emulates-undefined.js
+1	annexB/built-ins/String/prototype/replace/custom-replacer-emulates-undefined.js
+1	annexB/built-ins/String/prototype/replaceAll/custom-replacer-emulates-undefined.js
+1	annexB/built-ins/String/prototype/search/custom-searcher-emulates-undefined.js
+1	annexB/built-ins/String/prototype/split/custom-splitter-emulates-undefined.js
+1	annexB/built-ins/TypedArrayConstructors/from/iterator-method-emulates-undefined.js
+1	annexB/language/expressions/assignment/dstr/array-pattern-emulates-undefined.js
+1	annexB/language/expressions/assignment/dstr/object-pattern-emulates-undefined.js
+1	annexB/language/expressions/coalesce/emulates-undefined.js
+1	annexB/language/expressions/logical-assignment/emulates-undefined-and.js
+1	annexB/language/expressions/logical-assignment/emulates-undefined-coalesce.js
+1	annexB/language/expressions/logical-assignment/emulates-undefined-or.js
+1	annexB/language/expressions/strict-does-not-equals/emulates-undefined.js
+1	annexB/language/expressions/strict-equals/emulates-undefined.js
+1	annexB/language/expressions/yield/star-iterable-return-emulates-undefined-throws-when-called.js
+1	annexB/language/expressions/yield/star-iterable-throw-emulates-undefined-throws-when-called.js
+1	annexB/language/statements/class/subclass/superclass-emulates-undefined.js
+1	annexB/language/statements/class/subclass/superclass-prototype-emulates-undefined.js
+1	annexB/language/statements/const/dstr/array-pattern-emulates-undefined.js
+1	annexB/language/statements/const/dstr/object-pattern-emulates-undefined.js
+1	annexB/language/statements/for-await-of/iterator-close-return-emulates-undefined-throws-when-called.js  async
+1	annexB/language/statements/for-of/iterator-close-return-emulates-undefined-throws-when-called.js
+1	annexB/language/statements/function/default-parameters-emulates-undefined.js
+1	annexB/language/statements/switch/emulates-undefined.js
+1	built-ins/Array/from/proto-from-ctor-realm.js
+1	built-ins/Array/length/define-own-prop-length-coercion-order-set.js
+1	built-ins/Array/length/define-own-prop-length-overflow-order.js
+1	built-ins/Array/length/define-own-prop-length-overflow-realm.js
+1	built-ins/Array/of/proto-from-ctor-realm.js
+1	built-ins/Array/proto-from-ctor-realm-one.js
+1	built-ins/Array/proto-from-ctor-realm-two.js
+1	built-ins/Array/proto-from-ctor-realm-zero.js
+1	built-ins/Array/prototype/at/index-argument-tointeger.js
+1	built-ins/Array/prototype/at/index-non-numeric-argument-tointeger-invalid.js
+1	built-ins/Array/prototype/at/index-non-numeric-argument-tointeger.js
+1	built-ins/Array/prototype/at/length.js
+1	built-ins/Array/prototype/at/name.js
+1	built-ins/Array/prototype/at/prop-desc.js
+1	built-ins/Array/prototype/at/return-abrupt-from-this.js
+1	built-ins/Array/prototype/at/returns-item-relative-index.js
+1	built-ins/Array/prototype/at/returns-item.js
+1	built-ins/Array/prototype/at/returns-undefined-for-holes-in-sparse-arrays.js
+1	built-ins/Array/prototype/at/returns-undefined-for-out-of-range-index.js
+1	built-ins/Array/prototype/concat/create-proto-from-ctor-realm-array.js
+1	built-ins/Array/prototype/concat/create-proto-from-ctor-realm-non-array.js
+1	built-ins/Array/prototype/filter/create-proto-from-ctor-realm-array.js
+1	built-ins/Array/prototype/filter/create-proto-from-ctor-realm-non-array.js
+1	built-ins/Array/prototype/findLast/array-altered-during-loop.js
+1	built-ins/Array/prototype/findLast/call-with-boolean.js
+1	built-ins/Array/prototype/findLast/length.js
+1	built-ins/Array/prototype/findLast/name.js
+1	built-ins/Array/prototype/findLast/predicate-call-parameters.js
+1	built-ins/Array/prototype/findLast/predicate-call-this-non-strict.js  @noStrict
+1	built-ins/Array/prototype/findLast/predicate-call-this-strict.js  @onlyStrict
+1	built-ins/Array/prototype/findLast/predicate-called-for-each-array-property.js
+1	built-ins/Array/prototype/findLast/predicate-not-called-on-empty-array.js
+1	built-ins/Array/prototype/findLast/prop-desc.js
+1	built-ins/Array/prototype/findLast/return-abrupt-from-predicate-call.js
+1	built-ins/Array/prototype/findLast/return-abrupt-from-property.js
+1	built-ins/Array/prototype/findLast/return-abrupt-from-this-length.js
+1	built-ins/Array/prototype/findLast/return-found-value-predicate-result-is-true.js
+1	built-ins/Array/prototype/findLast/return-undefined-if-predicate-returns-false-value.js
+1	built-ins/Array/prototype/findLastIndex/array-altered-during-loop.js
+1	built-ins/Array/prototype/findLastIndex/call-with-boolean.js
+1	built-ins/Array/prototype/findLastIndex/length.js
+1	built-ins/Array/prototype/findLastIndex/name.js
+1	built-ins/Array/prototype/findLastIndex/predicate-call-parameters.js
+1	built-ins/Array/prototype/findLastIndex/predicate-call-this-non-strict.js  @noStrict
+1	built-ins/Array/prototype/findLastIndex/predicate-call-this-strict.js  @onlyStrict
+1	built-ins/Array/prototype/findLastIndex/predicate-called-for-each-array-property.js
+1	built-ins/Array/prototype/findLastIndex/predicate-not-called-on-empty-array.js
+1	built-ins/Array/prototype/findLastIndex/prop-desc.js
+1	built-ins/Array/prototype/findLastIndex/return-abrupt-from-predicate-call.js
+1	built-ins/Array/prototype/findLastIndex/return-abrupt-from-property.js
+1	built-ins/Array/prototype/findLastIndex/return-abrupt-from-this-length.js
+1	built-ins/Array/prototype/findLastIndex/return-index-predicate-result-is-true.js
+1	built-ins/Array/prototype/findLastIndex/return-negative-one-if-predicate-returns-false-value.js
+1	built-ins/Array/prototype/map/create-proto-from-ctor-realm-array.js
+1	built-ins/Array/prototype/map/create-proto-from-ctor-realm-non-array.js
+1	built-ins/Array/prototype/slice/create-proto-from-ctor-realm-array.js
+1	built-ins/Array/prototype/slice/create-proto-from-ctor-realm-non-array.js
+1	built-ins/Array/prototype/splice/create-proto-from-ctor-realm-array.js
+1	built-ins/Array/prototype/splice/create-proto-from-ctor-realm-non-array.js
+1	built-ins/ArrayBuffer/proto-from-ctor-realm.js
+1	built-ins/AsyncFromSyncIteratorPrototype/next/absent-value-not-passed.js  async
+1	built-ins/AsyncFromSyncIteratorPrototype/return/absent-value-not-passed.js  async
+1	built-ins/AsyncFunction/proto-from-ctor-realm.js
+1	built-ins/AsyncGeneratorFunction/proto-from-ctor-realm-prototype.js
+1	built-ins/AsyncGeneratorFunction/proto-from-ctor-realm.js
+1	built-ins/BigInt/prototype/valueOf/cross-realm.js
+1	built-ins/Boolean/proto-from-ctor-realm.js
+1	built-ins/DataView/proto-from-ctor-realm-sab.js
+1	built-ins/DataView/proto-from-ctor-realm.js
+1	built-ins/Date/parse/year-zero.js
+1	built-ins/Date/proto-from-ctor-realm-one.js
+1	built-ins/Date/proto-from-ctor-realm-two.js
+1	built-ins/Date/proto-from-ctor-realm-zero.js
+1	built-ins/Date/prototype/setDate/arg-coercion-order.js
+1	built-ins/Date/prototype/setHours/arg-coercion-order.js
+1	built-ins/Date/prototype/setMilliseconds/arg-coercion-order.js
+1	built-ins/Date/prototype/setMinutes/arg-coercion-order.js
+1	built-ins/Date/prototype/setMonth/arg-coercion-order.js
+1	built-ins/Date/prototype/setSeconds/arg-coercion-order.js
+1	built-ins/Date/prototype/setUTCDate/arg-coercion-order.js
+1	built-ins/Date/prototype/setUTCHours/arg-coercion-order.js
+1	built-ins/Date/prototype/setUTCMilliseconds/arg-coercion-order.js
+1	built-ins/Date/prototype/setUTCMinutes/arg-coercion-order.js
+1	built-ins/Date/prototype/setUTCMonth/arg-coercion-order.js
+1	built-ins/Date/prototype/setUTCSeconds/arg-coercion-order.js
+1	built-ins/Date/year-zero.js
+1	built-ins/Error/cause_abrupt.js
+1	built-ins/Error/cause_property.js
+1	built-ins/Error/constructor.js
+1	built-ins/Error/proto-from-ctor-realm.js
+1	built-ins/FinalizationRegistry/gc-has-one-chance-to-call-cleanupCallback.js  async
+1	built-ins/FinalizationRegistry/proto-from-ctor-realm.js
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/callback-not-callable-throws.js
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/cleanup-prevented-with-reference.js  async
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/cleanup-prevented-with-unregister.js  async
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/custom-this.js
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/holdings-multiple-values.js  async
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/length.js
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/name.js
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/prop-desc.js
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/reentrancy.js  async
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/return-undefined-with-gc.js  async
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/return-undefined.js
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/this-does-not-have-internal-cells-throws.js
+1	built-ins/FinalizationRegistry/prototype/cleanupSome/this-not-object-throws.js
+1	built-ins/FinalizationRegistry/prototype/register/length.js
+1	built-ins/FinalizationRegistry/prototype/register/return-undefined.js
+1	built-ins/FinalizationRegistry/prototype/unregister/unregister-cleaned-up-cell.js  async
+1	built-ins/Function/call-bind-this-realm-undef.js
+1	built-ins/Function/call-bind-this-realm-value.js
+1	built-ins/Function/internals/Call/class-ctor-realm.js
+1	built-ins/Function/internals/Construct/base-ctor-revoked-proxy-realm.js
+1	built-ins/Function/internals/Construct/derived-return-val-realm.js
+1	built-ins/Function/internals/Construct/derived-this-uninitialized-realm.js
+1	built-ins/Function/proto-from-ctor-realm-prototype.js
+1	built-ins/Function/proto-from-ctor-realm.js
+1	built-ins/Function/prototype/apply/argarray-not-object-realm.js
+1	built-ins/Function/prototype/apply/this-not-callable-realm.js
+1	built-ins/Function/prototype/bind/get-fn-realm-recursive.js
+1	built-ins/Function/prototype/bind/get-fn-realm.js
+1	built-ins/Function/prototype/bind/proto-from-ctor-realm.js
+1	built-ins/GeneratorFunction/proto-from-ctor-realm-prototype.js
+1	built-ins/GeneratorFunction/proto-from-ctor-realm.js
+1	built-ins/JSON/stringify/replacer-array-proxy-revoked-realm.js
+1	built-ins/JSON/stringify/value-bigint-cross-realm.js
+1	built-ins/JSON/stringify/value-bigint-order.js
+1	built-ins/JSON/stringify/value-bigint-tojson-receiver.js
+1	built-ins/JSON/stringify/value-bigint.js
+1	built-ins/Map/proto-from-ctor-realm.js
+1	built-ins/NativeErrors/AggregateError/cause-property.js
+1	built-ins/NativeErrors/AggregateError/proto-from-ctor-realm.js
+1	built-ins/NativeErrors/EvalError/proto-from-ctor-realm.js
+1	built-ins/NativeErrors/RangeError/proto-from-ctor-realm.js
+1	built-ins/NativeErrors/ReferenceError/proto-from-ctor-realm.js
+1	built-ins/NativeErrors/SyntaxError/proto-from-ctor-realm.js
+1	built-ins/NativeErrors/TypeError/proto-from-ctor-realm.js
+1	built-ins/NativeErrors/URIError/proto-from-ctor-realm.js
+1	built-ins/NativeErrors/cause_property_native_error.js
+1	built-ins/Number/proto-from-ctor-realm.js
+1	built-ins/Object/getOwnPropertyDescriptor/primitive-string.js
+1	built-ins/Object/hasOwn/descriptor.js
+1	built-ins/Object/hasOwn/hasown.js
+1	built-ins/Object/hasOwn/hasown_inherited_exists.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_and_setter.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_and_setter_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_and_setter_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_and_setter_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_and_setter_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_getter_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_nonwritable_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_nonwritable_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_nonwritable_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_nonwritable_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_setter.js
+1	built-ins/Object/hasOwn/hasown_inherited_setter_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_setter_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_setter_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_setter_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_writable_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_writable_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_writable_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_inherited_writable_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_nonexistent.js
+1	built-ins/Object/hasOwn/hasown_own_getter.js
+1	built-ins/Object/hasOwn/hasown_own_getter_and_setter.js
+1	built-ins/Object/hasOwn/hasown_own_getter_and_setter_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_getter_and_setter_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_getter_and_setter_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_getter_and_setter_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_getter_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_getter_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_getter_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_getter_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_nonwritable_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_nonwritable_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_nonwriteable_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_nonwriteable_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_property_exists.js
+1	built-ins/Object/hasOwn/hasown_own_setter.js
+1	built-ins/Object/hasOwn/hasown_own_setter_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_setter_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_setter_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_setter_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_writable_configurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_writable_configurable_nonenumerable.js
+1	built-ins/Object/hasOwn/hasown_own_writable_nonconfigurable_enumerable.js
+1	built-ins/Object/hasOwn/hasown_own_writable_nonconfigurable_nonenumerable.js
+1	built-ins/Object/hasOwn/length.js
+1	built-ins/Object/hasOwn/name.js
+1	built-ins/Object/hasOwn/prototype.js
+1	built-ins/Object/hasOwn/symbol_own_property.js
+1	built-ins/Object/hasOwn/symbol_property_toPrimitive.js
+1	built-ins/Object/hasOwn/symbol_property_toString.js
+1	built-ins/Object/hasOwn/symbol_property_valueOf.js
+1	built-ins/Object/proto-from-ctor-realm.js
+1	built-ins/Promise/proto-from-ctor-realm.js
+1	built-ins/Proxy/apply/arguments-realm.js
+1	built-ins/Proxy/apply/null-handler-realm.js
+1	built-ins/Proxy/apply/trap-is-not-callable-realm.js
+1	built-ins/Proxy/construct/arguments-realm.js
+1	built-ins/Proxy/construct/null-handler-realm.js
+1	built-ins/Proxy/construct/return-not-object-throws-boolean-realm.js
+1	built-ins/Proxy/construct/return-not-object-throws-null-realm.js
+1	built-ins/Proxy/construct/return-not-object-throws-number-realm.js
+1	built-ins/Proxy/construct/return-not-object-throws-string-realm.js
+1	built-ins/Proxy/construct/return-not-object-throws-symbol-realm.js
+1	built-ins/Proxy/construct/return-not-object-throws-undefined-realm.js
+1	built-ins/Proxy/construct/trap-is-not-callable-realm.js
+1	built-ins/Proxy/construct/trap-is-undefined-proto-from-cross-realm-newtarget.js
+1	built-ins/Proxy/construct/trap-is-undefined-proto-from-newtarget-realm.js
+1	built-ins/Proxy/create-handler-is-revoked-proxy.js
+1	built-ins/Proxy/create-target-is-revoked-function-proxy.js
+1	built-ins/Proxy/create-target-is-revoked-proxy.js
+1	built-ins/Proxy/defineProperty/desc-realm.js
+1	built-ins/Proxy/defineProperty/null-handler-realm.js
+1	built-ins/Proxy/defineProperty/targetdesc-configurable-desc-not-configurable-realm.js
+1	built-ins/Proxy/defineProperty/targetdesc-not-compatible-descriptor-not-configurable-target-realm.js
+1	built-ins/Proxy/defineProperty/targetdesc-not-compatible-descriptor-realm.js
+1	built-ins/Proxy/defineProperty/targetdesc-not-configurable-writable-desc-not-writable.js
+1	built-ins/Proxy/defineProperty/targetdesc-undefined-not-configurable-descriptor-realm.js
+1	built-ins/Proxy/defineProperty/targetdesc-undefined-target-is-not-extensible-realm.js
+1	built-ins/Proxy/defineProperty/trap-is-not-callable-realm.js
+1	built-ins/Proxy/deleteProperty/targetdesc-is-configurable-target-is-not-extensible.js
+1	built-ins/Proxy/deleteProperty/trap-is-not-callable-realm.js
+1	built-ins/Proxy/get-fn-realm-recursive.js
+1	built-ins/Proxy/get-fn-realm.js
+1	built-ins/Proxy/get/trap-is-not-callable-realm.js
+1	built-ins/Proxy/getOwnPropertyDescriptor/result-type-is-not-object-nor-undefined-realm.js
+1	built-ins/Proxy/getOwnPropertyDescriptor/resultdesc-is-not-configurable-not-writable-targetdesc-is-writable.js
+1	built-ins/Proxy/getOwnPropertyDescriptor/trap-is-not-callable-realm.js
+1	built-ins/Proxy/getPrototypeOf/trap-is-not-callable-realm.js
+1	built-ins/Proxy/has/trap-is-not-callable-realm.js
+1	built-ins/Proxy/isExtensible/trap-is-not-callable-realm.js
+1	built-ins/Proxy/ownKeys/return-not-list-object-throws-realm.js
+1	built-ins/Proxy/ownKeys/trap-is-not-callable-realm.js
+1	built-ins/Proxy/ownKeys/trap-is-undefined-target-is-proxy.js
+1	built-ins/Proxy/preventExtensions/trap-is-not-callable-realm.js
+1	built-ins/Proxy/revocable/handler-is-revoked-proxy.js
+1	built-ins/Proxy/revocable/target-is-revoked-function-proxy.js
+1	built-ins/Proxy/revocable/target-is-revoked-proxy.js
+1	built-ins/Proxy/revocable/tco-fn-realm.js  @onlyStrict
+1	built-ins/Proxy/set/trap-is-not-callable-realm.js
+1	built-ins/Proxy/setPrototypeOf/trap-is-not-callable-realm.js
+1	built-ins/Reflect/Symbol.toStringTag.js
+1	built-ins/Reflect/apply/arguments-list-is-not-array-like.js
+1	built-ins/RegExp/duplicate-flags.js
+1	built-ins/RegExp/match-indices/indices-array-element.js
+1	built-ins/RegExp/match-indices/indices-array-matched.js
+1	built-ins/RegExp/match-indices/indices-array-non-unicode-match.js
+1	built-ins/RegExp/match-indices/indices-array-properties.js
+1	built-ins/RegExp/match-indices/indices-array-unicode-match.js
+1	built-ins/RegExp/match-indices/indices-array-unicode-property-names.js
+1	built-ins/RegExp/match-indices/indices-array-unmatched.js
+1	built-ins/RegExp/match-indices/indices-array.js
+1	built-ins/RegExp/match-indices/indices-groups-object-undefined.js
+1	built-ins/RegExp/match-indices/indices-groups-object-unmatched.js
+1	built-ins/RegExp/match-indices/indices-groups-object.js
+1	built-ins/RegExp/match-indices/indices-groups-properties.js
+1	built-ins/RegExp/match-indices/indices-property.js
+1	built-ins/RegExp/named-groups/non-unicode-property-names-valid.js
+1	built-ins/RegExp/property-escapes/generated/Alphabetic.js
+1	built-ins/RegExp/property-escapes/generated/Assigned.js
+1	built-ins/RegExp/property-escapes/generated/Bidi_Mirrored.js
+1	built-ins/RegExp/property-escapes/generated/Case_Ignorable.js
+1	built-ins/RegExp/property-escapes/generated/Cased.js
+1	built-ins/RegExp/property-escapes/generated/Changes_When_Casefolded.js
+1	built-ins/RegExp/property-escapes/generated/Changes_When_Casemapped.js
+1	built-ins/RegExp/property-escapes/generated/Changes_When_Lowercased.js
+1	built-ins/RegExp/property-escapes/generated/Changes_When_NFKC_Casefolded.js
+1	built-ins/RegExp/property-escapes/generated/Changes_When_Titlecased.js
+1	built-ins/RegExp/property-escapes/generated/Changes_When_Uppercased.js
+1	built-ins/RegExp/property-escapes/generated/Dash.js
+1	built-ins/RegExp/property-escapes/generated/Default_Ignorable_Code_Point.js
+1	built-ins/RegExp/property-escapes/generated/Diacritic.js
+1	built-ins/RegExp/property-escapes/generated/Emoji.js
+1	built-ins/RegExp/property-escapes/generated/Emoji_Component.js
+1	built-ins/RegExp/property-escapes/generated/Emoji_Modifier.js
+1	built-ins/RegExp/property-escapes/generated/Emoji_Modifier_Base.js
+1	built-ins/RegExp/property-escapes/generated/Emoji_Presentation.js
+1	built-ins/RegExp/property-escapes/generated/Extended_Pictographic.js
+1	built-ins/RegExp/property-escapes/generated/Extender.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Cased_Letter.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Close_Punctuation.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Currency_Symbol.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Dash_Punctuation.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Decimal_Number.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Format.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Lowercase_Letter.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Mark.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Modifier_Letter.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Modifier_Symbol.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Nonspacing_Mark.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Number.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Open_Punctuation.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Other.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Number.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Punctuation.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Symbol.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Punctuation.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Spacing_Mark.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Symbol.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Unassigned.js
+1	built-ins/RegExp/property-escapes/generated/General_Category_-_Uppercase_Letter.js
+1	built-ins/RegExp/property-escapes/generated/Grapheme_Base.js
+1	built-ins/RegExp/property-escapes/generated/Grapheme_Extend.js
+1	built-ins/RegExp/property-escapes/generated/ID_Continue.js
+1	built-ins/RegExp/property-escapes/generated/ID_Start.js
+1	built-ins/RegExp/property-escapes/generated/Ideographic.js
+1	built-ins/RegExp/property-escapes/generated/Lowercase.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Ahom.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Arabic.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Armenian.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Balinese.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Bopomofo.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Brahmi.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Canadian_Aboriginal.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Chakma.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Chorasmian.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Common.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Cypro_Minoan.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Dives_Akuru.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Ethiopic.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Glagolitic.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Han.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Hiragana.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Inherited.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Kaithi.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Kannada.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Katakana.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Khitan_Small_Script.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Latin.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Lisu.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Malayalam.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Mongolian.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Newa.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Old_Uyghur.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Oriya.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Sharada.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Sinhala.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Syloti_Nagri.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Tagalog.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Takri.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Tangsa.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Tangut.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Telugu.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Toto.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Vithkuqi.js
+1	built-ins/RegExp/property-escapes/generated/Script_-_Yezidi.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Adlam.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Ahom.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Arabic.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Balinese.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Bopomofo.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Brahmi.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Canadian_Aboriginal.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Chakma.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Chorasmian.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Common.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Cypro_Minoan.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Cyrillic.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Dives_Akuru.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Ethiopic.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Georgian.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Glagolitic.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Han.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Hiragana.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Inherited.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Kaithi.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Kannada.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Katakana.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Khitan_Small_Script.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Latin.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Lisu.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Malayalam.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Mongolian.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Newa.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Nko.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Old_Uyghur.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Oriya.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Sharada.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Sinhala.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Syloti_Nagri.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Syriac.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Tagalog.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Takri.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Tangsa.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Tangut.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Telugu.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Toto.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Vithkuqi.js
+1	built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Yezidi.js
+1	built-ins/RegExp/property-escapes/generated/Sentence_Terminal.js
+1	built-ins/RegExp/property-escapes/generated/Soft_Dotted.js
+1	built-ins/RegExp/property-escapes/generated/Terminal_Punctuation.js
+1	built-ins/RegExp/property-escapes/generated/Unified_Ideograph.js
+1	built-ins/RegExp/property-escapes/generated/Uppercase.js
+1	built-ins/RegExp/property-escapes/generated/Variation_Selector.js
+1	built-ins/RegExp/property-escapes/generated/XID_Continue.js
+1	built-ins/RegExp/property-escapes/generated/XID_Start.js
+1	built-ins/RegExp/property-escapes/generated/strings/Basic_Emoji.js
+1	built-ins/RegExp/property-escapes/generated/strings/Emoji_Keycap_Sequence.js
+1	built-ins/RegExp/property-escapes/generated/strings/Emoji_Test.js
+1	built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.js
+1	built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji_Flag_Sequence.js
+1	built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji_Modifier_Sequence.js
+1	built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji_Tag_Sequence.js
+1	built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji_ZWJ_Sequence.js
+1	built-ins/RegExp/proto-from-ctor-realm.js
+1	built-ins/RegExp/prototype/Symbol.replace/coerce-lastindex.js
+1	built-ins/RegExp/prototype/Symbol.replace/poisoned-stdlib.js
+1	built-ins/RegExp/prototype/Symbol.replace/result-coerce-groups-err.js
+1	built-ins/RegExp/prototype/Symbol.split/splitter-proto-from-ctor-realm.js
+1	built-ins/RegExp/prototype/dotAll/cross-realm.js
+1	built-ins/RegExp/prototype/flags/coercion-hasIndices.js
+1	built-ins/RegExp/prototype/flags/get-order.js
+1	built-ins/RegExp/prototype/flags/rethrow.js
+1	built-ins/RegExp/prototype/flags/return-order.js
+1	built-ins/RegExp/prototype/flags/this-val-regexp.js
+1	built-ins/RegExp/prototype/global/cross-realm.js
+1	built-ins/RegExp/prototype/hasIndices/cross-realm.js
+1	built-ins/RegExp/prototype/hasIndices/length.js
+1	built-ins/RegExp/prototype/hasIndices/name.js
+1	built-ins/RegExp/prototype/hasIndices/prop-desc.js
+1	built-ins/RegExp/prototype/hasIndices/this-val-invalid-obj.js
+1	built-ins/RegExp/prototype/hasIndices/this-val-non-obj.js
+1	built-ins/RegExp/prototype/hasIndices/this-val-regexp-prototype.js
+1	built-ins/RegExp/prototype/hasIndices/this-val-regexp.js
+1	built-ins/RegExp/prototype/ignoreCase/cross-realm.js
+1	built-ins/RegExp/prototype/multiline/cross-realm.js
+1	built-ins/RegExp/prototype/source/cross-realm.js
+1	built-ins/RegExp/prototype/sticky/cross-realm.js
+1	built-ins/RegExp/prototype/unicode/cross-realm.js
+1	built-ins/Set/proto-from-ctor-realm.js
+1	built-ins/ShadowRealm/WrappedFunction/length-throws-typeerror.js
+1	built-ins/ShadowRealm/WrappedFunction/length.js
+1	built-ins/ShadowRealm/WrappedFunction/name-throws-typeerror.js
+1	built-ins/ShadowRealm/WrappedFunction/name.js
+1	built-ins/ShadowRealm/WrappedFunction/throws-typeerror-on-revoked-proxy.js
+1	built-ins/ShadowRealm/constructor.js
+1	built-ins/ShadowRealm/descriptor.js
+1	built-ins/ShadowRealm/extensibility.js
+1	built-ins/ShadowRealm/instance-extensibility.js
+1	built-ins/ShadowRealm/instance.js
+1	built-ins/ShadowRealm/length.js
+1	built-ins/ShadowRealm/name.js
+1	built-ins/ShadowRealm/proto.js
+1	built-ins/ShadowRealm/prototype/Symbol.toStringTag.js
+1	built-ins/ShadowRealm/prototype/evaluate/descriptor.js
+1	built-ins/ShadowRealm/prototype/evaluate/errors-from-the-other-realm-is-wrapped-into-a-typeerror.js
+1	built-ins/ShadowRealm/prototype/evaluate/globalthis-available-properties.js
+1	built-ins/ShadowRealm/prototype/evaluate/globalthis-config-only-properties.js
+1	built-ins/ShadowRealm/prototype/evaluate/globalthis-ordinary-object.js
+1	built-ins/ShadowRealm/prototype/evaluate/length.js
+1	built-ins/ShadowRealm/prototype/evaluate/name.js
+1	built-ins/ShadowRealm/prototype/evaluate/nested-realms.js
+1	built-ins/ShadowRealm/prototype/evaluate/no-conditional-strict-mode.js
+1	built-ins/ShadowRealm/prototype/evaluate/not-constructor.js
+1	built-ins/ShadowRealm/prototype/evaluate/proto.js
+1	built-ins/ShadowRealm/prototype/evaluate/returns-primitive-values.js
+1	built-ins/ShadowRealm/prototype/evaluate/returns-proxy-callable-object.js
+1	built-ins/ShadowRealm/prototype/evaluate/returns-symbol-values.js
+1	built-ins/ShadowRealm/prototype/evaluate/throws-error-from-ctor-realm.js
+1	built-ins/ShadowRealm/prototype/evaluate/throws-syntaxerror-on-bad-syntax.js
+1	built-ins/ShadowRealm/prototype/evaluate/throws-typeerror-if-evaluation-resolves-to-non-primitive.js
+1	built-ins/ShadowRealm/prototype/evaluate/throws-typeerror-wrap-throwing.js
+1	built-ins/ShadowRealm/prototype/evaluate/throws-when-argument-is-not-a-string.js
+1	built-ins/ShadowRealm/prototype/evaluate/validates-realm-object.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-arguments-are-wrapped-into-the-inner-realm-extended.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-arguments-are-wrapped-into-the-inner-realm.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-from-return-values-share-no-identity.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-multiple-different-realms-nested.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-multiple-different-realms.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-observing-their-scopes.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-proto-from-caller-realm.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-proxied-observes-boundary.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-throws-typeerror-from-caller-realm.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-throws-typeerror-on-exceptional-exit.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-throws-typeerror-on-non-primitive-arguments.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-function-throws-typeerror-on-non-primitive-returns.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-functions-accepts-callable-objects.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-functions-can-resolve-callable-returns.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-functions-new-wrapping-on-each-evaluation.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-functions-share-no-properties-extended.js
+1	built-ins/ShadowRealm/prototype/evaluate/wrapped-functions-share-no-properties.js
+1	built-ins/ShadowRealm/prototype/importValue/descriptor.js
+1	built-ins/ShadowRealm/prototype/importValue/exportName-tostring.js
+1	built-ins/ShadowRealm/prototype/importValue/import-value.js  async  module
+1	built-ins/ShadowRealm/prototype/importValue/length.js
+1	built-ins/ShadowRealm/prototype/importValue/name.js
+1	built-ins/ShadowRealm/prototype/importValue/not-constructor.js
+1	built-ins/ShadowRealm/prototype/importValue/proto.js
+1	built-ins/ShadowRealm/prototype/importValue/specifier-tostring.js
+1	built-ins/ShadowRealm/prototype/importValue/throws-if-import-value-does-not-exist.js  async  module
+1	built-ins/ShadowRealm/prototype/importValue/throws-typeerror-import-syntax-error.js  async  module
+1	built-ins/ShadowRealm/prototype/importValue/throws-typeerror-import-throws.js  async  module
+1	built-ins/ShadowRealm/prototype/importValue/validates-realm-object.js
+1	built-ins/ShadowRealm/prototype/proto.js
+1	built-ins/SharedArrayBuffer/proto-from-ctor-realm.js
+1	built-ins/String/proto-from-ctor-realm.js
+1	built-ins/String/prototype/at/index-argument-tointeger.js
+1	built-ins/String/prototype/at/index-non-numeric-argument-tointeger-invalid.js
+1	built-ins/String/prototype/at/index-non-numeric-argument-tointeger.js
+1	built-ins/String/prototype/at/length.js
+1	built-ins/String/prototype/at/name.js
+1	built-ins/String/prototype/at/prop-desc.js
+1	built-ins/String/prototype/at/return-abrupt-from-this.js
+1	built-ins/String/prototype/at/returns-code-unit.js
+1	built-ins/String/prototype/at/returns-item-relative-index.js
+1	built-ins/String/prototype/at/returns-item.js
+1	built-ins/String/prototype/at/returns-undefined-for-out-of-range-index.js
+1	built-ins/String/prototype/localeCompare/15.5.4.9_CE.js
+1	built-ins/String/prototype/matchAll/flags-nonglobal-throws.js
+1	built-ins/String/prototype/matchAll/flags-undefined-throws.js
+1	built-ins/String/prototype/replaceAll/getSubstitution-0x0024-0x0024.js
+1	built-ins/String/prototype/replaceAll/getSubstitution-0x0024-0x0026.js
+1	built-ins/String/prototype/replaceAll/getSubstitution-0x0024-0x0027.js
+1	built-ins/String/prototype/replaceAll/getSubstitution-0x0024-0x003C.js
+1	built-ins/String/prototype/replaceAll/getSubstitution-0x0024-0x0060.js
+1	built-ins/String/prototype/replaceAll/getSubstitution-0x0024.js
+1	built-ins/String/prototype/replaceAll/getSubstitution-0x0024N.js
+1	built-ins/String/prototype/replaceAll/getSubstitution-0x0024NN.js
+1	built-ins/String/prototype/replaceAll/length.js
+1	built-ins/String/prototype/replaceAll/name.js
+1	built-ins/String/prototype/replaceAll/replaceAll.js
+1	built-ins/String/prototype/replaceAll/replaceValue-call-abrupt.js
+1	built-ins/String/prototype/replaceAll/replaceValue-call-each-match-position.js
+1	built-ins/String/prototype/replaceAll/replaceValue-call-matching-empty.js
+1	built-ins/String/prototype/replaceAll/replaceValue-call-skip-no-match.js
+1	built-ins/String/prototype/replaceAll/replaceValue-call-tostring-abrupt.js
+1	built-ins/String/prototype/replaceAll/replaceValue-fn-skip-toString.js
+1	built-ins/String/prototype/replaceAll/replaceValue-tostring-abrupt.js
+1	built-ins/String/prototype/replaceAll/replaceValue-value-replaces-string.js
+1	built-ins/String/prototype/replaceAll/replaceValue-value-tostring.js
+1	built-ins/String/prototype/replaceAll/searchValue-empty-string-this-empty-string.js
+1	built-ins/String/prototype/replaceAll/searchValue-empty-string.js
+1	built-ins/String/prototype/replaceAll/searchValue-flags-no-g-throws.js
+1	built-ins/String/prototype/replaceAll/searchValue-flags-null-undefined-throws.js
+1	built-ins/String/prototype/replaceAll/searchValue-flags-toString-abrupt.js
+1	built-ins/String/prototype/replaceAll/searchValue-get-flags-abrupt.js
+1	built-ins/String/prototype/replaceAll/searchValue-isRegExp-abrupt.js
+1	built-ins/String/prototype/replaceAll/searchValue-replacer-RegExp-call-fn.js
+1	built-ins/String/prototype/replaceAll/searchValue-replacer-RegExp-call.js
+1	built-ins/String/prototype/replaceAll/searchValue-replacer-before-tostring.js
+1	built-ins/String/prototype/replaceAll/searchValue-replacer-call-abrupt.js
+1	built-ins/String/prototype/replaceAll/searchValue-replacer-call.js
+1	built-ins/String/prototype/replaceAll/searchValue-replacer-is-null.js
+1	built-ins/String/prototype/replaceAll/searchValue-replacer-method-abrupt.js
+1	built-ins/String/prototype/replaceAll/searchValue-tostring-abrupt.js
+1	built-ins/String/prototype/replaceAll/searchValue-tostring-regexp.js
+1	built-ins/String/prototype/replaceAll/this-is-null-throws.js
+1	built-ins/String/prototype/replaceAll/this-is-undefined-throws.js
+1	built-ins/String/prototype/replaceAll/this-tostring-abrupt.js
+1	built-ins/String/prototype/replaceAll/this-tostring.js
+1	built-ins/String/prototype/toString/non-generic-realm.js
+1	built-ins/String/prototype/valueOf/non-generic-realm.js
+1	built-ins/Symbol/asyncIterator/cross-realm.js
+1	built-ins/Symbol/for/cross-realm.js
+1	built-ins/Symbol/hasInstance/cross-realm.js
+1	built-ins/Symbol/isConcatSpreadable/cross-realm.js
+1	built-ins/Symbol/iterator/cross-realm.js
+1	built-ins/Symbol/keyFor/cross-realm.js
+1	built-ins/Symbol/match/cross-realm.js
+1	built-ins/Symbol/matchAll/cross-realm.js
+1	built-ins/Symbol/replace/cross-realm.js
+1	built-ins/Symbol/search/cross-realm.js
+1	built-ins/Symbol/species/cross-realm.js
+1	built-ins/Symbol/split/cross-realm.js
+1	built-ins/Symbol/toPrimitive/cross-realm.js
+1	built-ins/Symbol/toStringTag/cross-realm.js
+1	built-ins/Symbol/unscopables/cross-realm.js
+1	built-ins/ThrowTypeError/distinct-cross-realm.js
+1	built-ins/TypedArray/prototype/at/index-argument-tointeger.js
+1	built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger-invalid.js
+1	built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger.js
+1	built-ins/TypedArray/prototype/at/length.js
+1	built-ins/TypedArray/prototype/at/name.js
+1	built-ins/TypedArray/prototype/at/prop-desc.js
+1	built-ins/TypedArray/prototype/at/return-abrupt-from-this.js
+1	built-ins/TypedArray/prototype/at/returns-item-relative-index.js
+1	built-ins/TypedArray/prototype/at/returns-item.js
+1	built-ins/TypedArray/prototype/at/returns-undefined-for-holes-in-sparse-arrays.js
+1	built-ins/TypedArray/prototype/at/returns-undefined-for-out-of-range-index.js
+1	built-ins/TypedArray/prototype/set/array-arg-targetbuffer-detached-on-get-src-value-no-throw.js
+1	built-ins/TypedArray/prototype/sort/sort-tonumber.js
+1	built-ins/TypedArray/prototype/sort/sorted-values.js
+1	built-ins/TypedArrayConstructors/ctors-bigint/buffer-arg/proto-from-ctor-realm-sab.js
+1	built-ins/TypedArrayConstructors/ctors-bigint/buffer-arg/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors-bigint/length-arg/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors-bigint/no-args/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors-bigint/object-arg/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors-bigint/typedarray-arg/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors/buffer-arg/proto-from-ctor-realm-sab.js
+1	built-ins/TypedArrayConstructors/ctors/buffer-arg/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors/length-arg/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors/no-args/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors/no-species.js
+1	built-ins/TypedArrayConstructors/ctors/object-arg/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/ctors/typedarray-arg/proto-from-ctor-realm.js
+1	built-ins/TypedArrayConstructors/internals/DefineOwnProperty/BigInt/detached-buffer-throws-realm.js
+1	built-ins/TypedArrayConstructors/internals/DefineOwnProperty/BigInt/tonumber-value-detached-buffer.js
+1	built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer-throws-realm.js
+1	built-ins/TypedArrayConstructors/internals/DefineOwnProperty/tonumber-value-detached-buffer.js
+1	built-ins/TypedArrayConstructors/internals/Delete/BigInt/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/Delete/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/Get/BigInt/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/Get/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/GetOwnProperty/BigInt/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/GetOwnProperty/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/HasProperty/BigInt/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/HasProperty/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/Set/BigInt/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/Set/BigInt/tonumber-value-detached-buffer.js
+1	built-ins/TypedArrayConstructors/internals/Set/detached-buffer-realm.js
+1	built-ins/TypedArrayConstructors/internals/Set/key-is-minus-zero.js
+1	built-ins/TypedArrayConstructors/internals/Set/key-is-not-integer.js
+1	built-ins/TypedArrayConstructors/internals/Set/key-is-out-of-bounds.js
+1	built-ins/TypedArrayConstructors/internals/Set/tonumber-value-detached-buffer.js
+1	built-ins/WeakMap/proto-from-ctor-realm.js
+1	built-ins/WeakRef/proto-from-ctor-realm.js
+1	built-ins/WeakRef/prototype/deref/gc-cleanup-not-prevented-with-wr-deref.js  async
+1	built-ins/WeakSet/proto-from-ctor-realm.js
+1	harness/assert-throws-same-realm.js
+1	language/computed-property-names/class/static/method-number-order.js
+1	language/computed-property-names/class/static/method-string-order.js
+1	language/computed-property-names/class/static/method-symbol-order.js
+1	language/eval-code/indirect/realm.js
+1	language/expressions/assignment/S11.13.1_A6_T1.js  @noStrict
+1	language/expressions/assignment/S11.13.1_A6_T2.js  @noStrict
+1	language/expressions/assignment/assignment-operator-calls-putvalue-lref--rval--1.js  @noStrict
+1	language/expressions/assignment/assignment-operator-calls-putvalue-lref--rval-.js  @noStrict
+1	language/expressions/assignment/target-member-computed-reference-null.js
+1	language/expressions/assignment/target-member-computed-reference-undefined.js
+1	language/expressions/async-generator/eval-body-proto-realm.js
+1	language/expressions/call/eval-realm-indirect.js  @noStrict
+1	language/expressions/call/tco-call-args.js  @onlyStrict
+1	language/expressions/call/tco-member-args.js  @onlyStrict
+1	language/expressions/call/tco-non-eval-function-dynamic.js  @noStrict
+1	language/expressions/call/tco-non-eval-function.js  @noStrict
+1	language/expressions/call/tco-non-eval-global.js  @noStrict
+1	language/expressions/call/tco-non-eval-with.js  @noStrict
+1	language/expressions/class/cpn-class-expr-accessors-computed-property-name-from-assignment-expression-coalesce.js
+1	language/expressions/class/cpn-class-expr-accessors-computed-property-name-from-assignment-expression-logical-and.js
+1	language/expressions/class/cpn-class-expr-accessors-computed-property-name-from-assignment-expression-logical-or.js
+1	language/expressions/class/cpn-class-expr-accessors-computed-property-name-from-await-expression.js  async  module
+1	language/expressions/class/cpn-class-expr-computed-property-name-from-assignment-expression-coalesce.js
+1	language/expressions/class/cpn-class-expr-computed-property-name-from-assignment-expression-logical-and.js
+1	language/expressions/class/cpn-class-expr-computed-property-name-from-assignment-expression-logical-or.js
+1	language/expressions/class/cpn-class-expr-computed-property-name-from-await-expression.js  async  module
+1	language/expressions/class/cpn-class-expr-fields-computed-property-name-from-assignment-expression-coalesce.js
+1	language/expressions/class/cpn-class-expr-fields-computed-property-name-from-assignment-expression-logical-and.js
+1	language/expressions/class/cpn-class-expr-fields-computed-property-name-from-assignment-expression-logical-or.js
+1	language/expressions/class/cpn-class-expr-fields-computed-property-name-from-await-expression.js  async  module
+1	language/expressions/class/cpn-class-expr-fields-methods-computed-property-name-from-assignment-expression-coalesce.js
+1	language/expressions/class/cpn-class-expr-fields-methods-computed-property-name-from-assignment-expression-logical-and.js
+1	language/expressions/class/cpn-class-expr-fields-methods-computed-property-name-from-assignment-expression-logical-or.js
+1	language/expressions/class/cpn-class-expr-fields-methods-computed-property-name-from-await-expression.js  async  module
+1	language/expressions/class/elements/class-name-static-initializer-anonymous.js
+1	language/expressions/class/name.js
+1	language/expressions/class/private-getter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js
+1	language/expressions/class/private-getter-brand-check-multiple-evaluations-of-class-realm.js  @noStrict
+1	language/expressions/class/private-method-brand-check-multiple-evaluations-of-class-realm-function-ctor.js
+1	language/expressions/class/private-method-brand-check-multiple-evaluations-of-class-realm.js  @noStrict
+1	language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js
+1	language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm.js  @noStrict
+1	language/expressions/class/private-static-field-multiple-evaluations-of-class-realm.js  @noStrict
+1	language/expressions/class/private-static-getter-multiple-evaluations-of-class-realm.js  @noStrict
+1	language/expressions/class/private-static-method-brand-check-multiple-evaluations-of-class-realm.js  @noStrict
+1	language/expressions/class/private-static-setter-multiple-evaluations-of-class-realm.js  @noStrict
+1	language/expressions/class/static-init-await-reference.js
+1	language/expressions/coalesce/tco-pos-null.js  @onlyStrict
+1	language/expressions/coalesce/tco-pos-undefined.js  @onlyStrict
+1	language/expressions/comma/tco-final.js  @onlyStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.10_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.11_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.1_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.2_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.3_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.4_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.5_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.6_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.7_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.8_T1.js  @noStrict
+1	language/expressions/compound-assignment/S11.13.2_A6.9_T1.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--1.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--10.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--11.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--12.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--13.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--14.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--15.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--16.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--17.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--18.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--19.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--2.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--20.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--21.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--3.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--4.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--5.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--6.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--7.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--8.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v--9.js  @noStrict
+1	language/expressions/compound-assignment/compound-assignment-operator-calls-putvalue-lref--v-.js  @noStrict
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-add.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-bitand.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-bitor.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-bitxor.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-div.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-exp.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-lshift.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-mod.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-mult.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-rshift.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-srshift.js
+1	language/expressions/compound-assignment/left-hand-side-private-reference-accessor-property-sub.js
+1	language/expressions/conditional/tco-cond.js  @onlyStrict
+1	language/expressions/conditional/tco-pos.js  @onlyStrict
+1	language/expressions/delete/super-property-null-base.js
+1	language/expressions/function/static-init-await-binding.js
+1	language/expressions/function/static-init-await-reference.js
+1	language/expressions/generators/eval-body-proto-realm.js
+1	language/expressions/generators/static-init-await-binding.js
+1	language/expressions/generators/static-init-await-reference.js
+1	language/expressions/import.meta/distinct-for-each-module.js  module
+1	language/expressions/import.meta/import-meta-is-an-ordinary-object.js  module
+1	language/expressions/import.meta/same-object-returned.js  module
+1	language/expressions/import.meta/syntax/goal-module-nested-function.js  module
+1	language/expressions/import.meta/syntax/goal-module.js  module
+1	language/expressions/in/private-field-presence-accessor-shadowed.js
+1	language/expressions/in/private-field-presence-accessor.js
+1	language/expressions/in/private-field-presence-field-shadowed.js
+1	language/expressions/in/private-field-presence-field.js
+1	language/expressions/in/private-field-presence-method-shadowed.js
+1	language/expressions/in/private-field-presence-method.js
+1	language/expressions/in/private-field-rhs-await-absent.js
+1	language/expressions/in/private-field-rhs-await-present.js  async
+1	language/expressions/in/private-field-rhs-non-object.js
+1	language/expressions/in/private-field-rhs-unresolvable.js
+1	language/expressions/in/private-field-rhs-yield-present.js
+1	language/expressions/logical-and/tco-right.js  @onlyStrict
+1	language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-and.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-nullish.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-or.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-short-circuit-and.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-short-circuit-nullish.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-short-circuit-or.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-data-property-and.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-data-property-nullish.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-data-property-or.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-data-property-short-circuit-and.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-data-property-short-circuit-nullish.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-data-property-short-circuit-or.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-method-and.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-method-short-circuit-nullish.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-method-short-circuit-or.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-readonly-accessor-property-and.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-readonly-accessor-property-nullish.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-readonly-accessor-property-or.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-readonly-accessor-property-short-circuit-and.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-readonly-accessor-property-short-circuit-nullish.js
+1	language/expressions/logical-assignment/left-hand-side-private-reference-readonly-accessor-property-short-circuit-or.js
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-bigint.js
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-lhs-before-rhs.js
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-namedevaluation-arrow-function.js
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-namedevaluation-class-expression.js
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-namedevaluation-function.js
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-no-set-put.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-no-set.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-non-extensible.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-non-writeable-put.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-non-writeable.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-unresolved-lhs.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-unresolved-rhs-put.js
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator-unresolved-rhs.js
+1	language/expressions/logical-assignment/lgcl-and-assignment-operator.js
+1	language/expressions/logical-assignment/lgcl-and-whitespace.js
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-bigint.js
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-lhs-before-rhs.js
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-namedevaluation-arrow-function.js
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-namedevaluation-class-expression.js
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-namedevaluation-function.js
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-no-set-put.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-no-set.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-non-extensible.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-non-writeable-put.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-non-writeable.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-unresolved-lhs.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-unresolved-rhs-put.js
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator-unresolved-rhs.js
+1	language/expressions/logical-assignment/lgcl-nullish-assignment-operator.js
+1	language/expressions/logical-assignment/lgcl-nullish-whitespace.js
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-bigint.js
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-lhs-before-rhs.js
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-namedevaluation-arrow-function.js
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-namedevaluation-class-expression.js
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-namedevaluation-function.js
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-no-set-put.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-no-set.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-non-extensible.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-non-writeable-put.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-non-writeable.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-unresolved-lhs.js  @onlyStrict
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-unresolved-rhs-put.js
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator-unresolved-rhs.js
+1	language/expressions/logical-assignment/lgcl-or-assignment-operator.js
+1	language/expressions/logical-assignment/lgcl-or-whitespace.js
+1	language/expressions/logical-or/tco-right.js  @onlyStrict
+1	language/expressions/new/non-ctor-err-realm.js
+1	language/expressions/object/cpn-obj-lit-computed-property-name-from-assignment-expression-coalesce.js
+1	language/expressions/object/cpn-obj-lit-computed-property-name-from-assignment-expression-logical-and.js
+1	language/expressions/object/cpn-obj-lit-computed-property-name-from-assignment-expression-logical-or.js
+1	language/expressions/object/cpn-obj-lit-computed-property-name-from-await-expression.js  async  module
+1	language/expressions/object/dstr/object-rest-proxy-get-not-called-on-dontenum-keys.js
+1	language/expressions/object/dstr/object-rest-proxy-gopd-not-called-on-excluded-keys.js
+1	language/expressions/object/ident-name-prop-name-literal-await-static-init.js
+1	language/expressions/object/identifier-shorthand-static-init-await-valid.js
+1	language/expressions/object/method-definition/static-init-await-binding-accessor.js
+1	language/expressions/object/method-definition/static-init-await-binding-generator.js
+1	language/expressions/object/method-definition/static-init-await-binding-normal.js
+1	language/expressions/object/method-definition/static-init-await-reference-accessor.js
+1	language/expressions/object/method-definition/static-init-await-reference-generator.js
+1	language/expressions/object/method-definition/static-init-await-reference-normal.js
+1	language/expressions/object/object-spread-proxy-get-not-called-on-dontenum-keys.js
+1	language/expressions/optional-chaining/optional-call-preserves-this.js
+1	language/expressions/postfix-decrement/operator-x-postfix-decrement-calls-putvalue-lhs-newvalue--1.js  @noStrict
+1	language/expressions/postfix-decrement/operator-x-postfix-decrement-calls-putvalue-lhs-newvalue-.js  @noStrict
+1	language/expressions/postfix-increment/operator-x-postfix-increment-calls-putvalue-lhs-newvalue--1.js  @noStrict
+1	language/expressions/postfix-increment/operator-x-postfix-increment-calls-putvalue-lhs-newvalue-.js  @noStrict
+1	language/expressions/prefix-decrement/operator-prefix-decrement-x-calls-putvalue-lhs-newvalue--1.js  @noStrict
+1	language/expressions/prefix-decrement/operator-prefix-decrement-x-calls-putvalue-lhs-newvalue-.js  @noStrict
+1	language/expressions/prefix-increment/operator-prefix-increment-x-calls-putvalue-lhs-newvalue--1.js  @noStrict
+1	language/expressions/prefix-increment/operator-prefix-increment-x-calls-putvalue-lhs-newvalue-.js  @noStrict
+1	language/expressions/super/call-proto-not-ctor.js
+1	language/expressions/super/realm.js
+1	language/expressions/tagged-template/cache-realm.js
+1	language/expressions/tagged-template/invalid-escape-sequences.js
+1	language/expressions/tagged-template/tco-call.js  @onlyStrict
+1	language/expressions/tagged-template/tco-member.js  @onlyStrict
+1	language/expressions/tco-pos.js  @onlyStrict
+1	language/expressions/template-literal/invalid-legacy-octal-escape-sequence-8.js  @negative
+1	language/expressions/template-literal/invalid-legacy-octal-escape-sequence-9.js  @negative
+1	language/identifiers/part-unicode-13.0.0-class-escaped.js
+1	language/identifiers/part-unicode-13.0.0-class.js
+1	language/identifiers/part-unicode-13.0.0-escaped.js
+1	language/identifiers/part-unicode-13.0.0.js
+1	language/identifiers/part-unicode-14.0.0-class-escaped.js
+1	language/identifiers/part-unicode-14.0.0-class.js
+1	language/identifiers/part-unicode-14.0.0-escaped.js
+1	language/identifiers/part-unicode-14.0.0.js
+1	language/identifiers/start-unicode-10.0.0-class-escaped.js
+1	language/identifiers/start-unicode-10.0.0-class.js
+1	language/identifiers/start-unicode-10.0.0-escaped.js
+1	language/identifiers/start-unicode-10.0.0.js
+1	language/identifiers/start-unicode-13.0.0-class-escaped.js
+1	language/identifiers/start-unicode-13.0.0-class.js
+1	language/identifiers/start-unicode-13.0.0-escaped.js
+1	language/identifiers/start-unicode-13.0.0.js
+1	language/identifiers/start-unicode-14.0.0-class-escaped.js
+1	language/identifiers/start-unicode-14.0.0-class.js
+1	language/identifiers/start-unicode-14.0.0-escaped.js
+1	language/identifiers/start-unicode-14.0.0.js
+1	language/identifiers/start-unicode-5.2.0-class-escaped.js
+1	language/identifiers/start-unicode-5.2.0-class.js
+1	language/identifiers/start-unicode-5.2.0-escaped.js
+1	language/identifiers/start-unicode-5.2.0.js
+1	language/identifiers/start-unicode-7.0.0-class-escaped.js
+1	language/identifiers/start-unicode-7.0.0-class.js
+1	language/identifiers/start-unicode-7.0.0-escaped.js
+1	language/identifiers/start-unicode-7.0.0.js
+1	language/identifiers/start-unicode-8.0.0-class-escaped.js
+1	language/identifiers/start-unicode-8.0.0-class.js
+1	language/identifiers/start-unicode-8.0.0-escaped.js
+1	language/identifiers/start-unicode-8.0.0.js
+1	language/identifiers/start-unicode-9.0.0-class-escaped.js
+1	language/identifiers/start-unicode-9.0.0-class.js
+1	language/identifiers/start-unicode-9.0.0-escaped.js
+1	language/identifiers/start-unicode-9.0.0.js
+1	language/import/json-extensibility-array.js  module
+1	language/import/json-extensibility-object.js  module
+1	language/import/json-value-array.js  module
+1	language/import/json-value-boolean.js  module
+1	language/import/json-value-null.js  module
+1	language/import/json-value-number.js  module
+1	language/import/json-value-object.js  module
+1	language/import/json-value-string.js  module
+1	language/import/json-via-namespace.js  module
+1	language/literals/string/legacy-non-octal-escape-sequence-8-strict-explicit-pragma.js  @noStrict  @negative
+1	language/literals/string/legacy-non-octal-escape-sequence-8-strict.js  @onlyStrict  @negative
+1	language/literals/string/legacy-non-octal-escape-sequence-9-strict-explicit-pragma.js  @noStrict  @negative
+1	language/literals/string/legacy-non-octal-escape-sequence-9-strict.js  @onlyStrict  @negative
+1	language/module-code/eval-gtbndng-indirect-faux-assertion.js  module
+1	language/module-code/eval-gtbndng-indirect-update-dflt.js  module
+1	language/module-code/export-default-asyncfunction-declaration-binding.js  module
+1	language/module-code/export-default-asyncgenerator-declaration-binding.js  module
+1	language/module-code/export-default-function-declaration-binding.js  module
+1	language/module-code/export-default-generator-declaration-binding.js  module
+1	language/module-code/export-expname-binding-index.js  module
+1	language/module-code/export-expname-binding-string.js  module
+1	language/module-code/export-expname-from-binding-string.js  module
+1	language/module-code/export-expname-from-star-string.js  module
+1	language/module-code/export-expname-from-star.js  module
+1	language/module-code/export-expname-from-string-binding.js  module
+1	language/module-code/export-expname-from-string-string.js  module
+1	language/module-code/export-expname-from-string.js  module
+1	language/module-code/export-expname-import-string-binding.js  module
+1	language/module-code/import-assertion-empty.js  module
+1	language/module-code/import-assertion-key-identifiername.js  module
+1	language/module-code/import-assertion-key-string-double.js  module
+1	language/module-code/import-assertion-key-string-single.js  module
+1	language/module-code/import-assertion-many.js  module
+1	language/module-code/import-assertion-newlines.js  module
+1	language/module-code/import-assertion-trlng-comma.js  module
+1	language/module-code/import-assertion-value-string-double.js  module
+1	language/module-code/import-assertion-value-string-single.js  module
+1	language/module-code/instn-iee-bndng-fun.js  module
+1	language/module-code/instn-iee-bndng-gen.js  module
+1	language/module-code/instn-local-bndng-export-fun.js  module
+1	language/module-code/instn-local-bndng-export-gen.js  module
+1	language/module-code/instn-local-bndng-fun.js  module
+1	language/module-code/instn-local-bndng-gen.js  module
+1	language/module-code/instn-named-bndng-dflt-fun-anon.js  module
+1	language/module-code/instn-named-bndng-dflt-fun-named.js  module
+1	language/module-code/instn-named-bndng-dflt-gen-anon.js  module
+1	language/module-code/instn-named-bndng-dflt-gen-named.js  module
+1	language/module-code/instn-named-bndng-fun.js  module
+1	language/module-code/instn-named-bndng-gen.js  module
+1	language/module-code/instn-uniq-env-rec.js  module
+1	language/module-code/namespace/internals/define-own-property.js  module
+1	language/module-code/top-level-await/await-awaits-thenable-not-callable.js  async  module
+1	language/module-code/top-level-await/await-awaits-thenables-that-throw.js  async  module
+1	language/module-code/top-level-await/await-awaits-thenables.js  async  module
+1	language/module-code/top-level-await/await-expr-func-expression.js  async  module
+1	language/module-code/top-level-await/await-expr-new-expr-reject.js  async  module
+1	language/module-code/top-level-await/await-expr-new-expr.js  async  module
+1	language/module-code/top-level-await/await-expr-regexp.js  async  module
+1	language/module-code/top-level-await/await-expr-reject-throws.js  async  module
+1	language/module-code/top-level-await/await-expr-resolution.js  async  module
+1	language/module-code/top-level-await/await-void-expr.js  async  module
+1	language/module-code/top-level-await/dfs-invariant.js  module
+1	language/module-code/top-level-await/if-await-expr.js  async  module
+1	language/module-code/top-level-await/module-async-import-async-resolution-ticks.js  async  module
+1	language/module-code/top-level-await/module-import-rejection-body.js  module  @negative
+1	language/module-code/top-level-await/module-import-rejection-tick.js  module  @negative
+1	language/module-code/top-level-await/module-import-rejection.js  module  @negative
+1	language/module-code/top-level-await/module-import-resolution.js  async  module
+1	language/module-code/top-level-await/module-import-unwrapped.js  async  module
+1	language/module-code/top-level-await/module-self-import-async-resolution-ticks.js  async  module
+1	language/module-code/top-level-await/module-sync-import-async-resolution-ticks.js  async  module
+1	language/module-code/top-level-await/new-await-parens.js  async  module
+1	language/module-code/top-level-await/syntax/block-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/block-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/export-class-decl-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/export-dft-class-decl-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/export-lex-decl-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/export-var-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/for-await-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/for-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/for-in-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/for-of-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/if-block-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/if-expr-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/top-level-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/try-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/typeof-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/void-await-expr-this.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-array-literal.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-func-expression.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-identifier.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-literal-number.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-literal-string.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-nested.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-new-expr.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-null.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-obj-literal.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-regexp.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-template-literal.js  module
+1	language/module-code/top-level-await/syntax/while-await-expr-this.js  module
+1	language/module-code/top-level-await/top-level-ticks-2.js  async  module
+1	language/module-code/top-level-await/top-level-ticks.js  async  module
+1	language/module-code/top-level-await/void-await-expr.js  async  module
+1	language/module-code/top-level-await/while-dynamic-evaluation.js  async  module
+1	language/statements/block/tco-stmt-list.js  @onlyStrict
+1	language/statements/block/tco-stmt.js  @onlyStrict
+1	language/statements/class/cpn-class-decl-accessors-computed-property-name-from-assignment-expression-coalesce.js
+1	language/statements/class/cpn-class-decl-accessors-computed-property-name-from-assignment-expression-logical-and.js
+1	language/statements/class/cpn-class-decl-accessors-computed-property-name-from-assignment-expression-logical-or.js
+1	language/statements/class/cpn-class-decl-accessors-computed-property-name-from-await-expression.js  async  module
+1	language/statements/class/cpn-class-decl-computed-property-name-from-assignment-expression-coalesce.js
+1	language/statements/class/cpn-class-decl-computed-property-name-from-assignment-expression-logical-and.js
+1	language/statements/class/cpn-class-decl-computed-property-name-from-assignment-expression-logical-or.js
+1	language/statements/class/cpn-class-decl-computed-property-name-from-await-expression.js  async  module
+1	language/statements/class/cpn-class-decl-fields-computed-property-name-from-assignment-expression-coalesce.js
+1	language/statements/class/cpn-class-decl-fields-computed-property-name-from-assignment-expression-logical-and.js
+1	language/statements/class/cpn-class-decl-fields-computed-property-name-from-assignment-expression-logical-or.js
+1	language/statements/class/cpn-class-decl-fields-computed-property-name-from-await-expression.js  async  module
+1	language/statements/class/cpn-class-decl-fields-methods-computed-property-name-from-assignment-expression-coalesce.js
+1	language/statements/class/cpn-class-decl-fields-methods-computed-property-name-from-assignment-expression-logical-and.js
+1	language/statements/class/cpn-class-decl-fields-methods-computed-property-name-from-assignment-expression-logical-or.js
+1	language/statements/class/cpn-class-decl-fields-methods-computed-property-name-from-await-expression.js  async  module
+1	language/statements/class/definition/fn-length-static-precedence-order.js
+1	language/statements/class/definition/fn-name-static-precedence-order.js
+1	language/statements/class/elements/private-method-double-initialisation-get-and-set.js
+1	language/statements/class/elements/private-method-double-initialisation-get.js
+1	language/statements/class/elements/private-method-double-initialisation-set.js
+1	language/statements/class/elements/private-method-double-initialisation.js
+1	language/statements/class/private-non-static-getter-static-setter-early-error.js  @negative
+1	language/statements/class/private-non-static-setter-static-getter-early-error.js  @negative
+1	language/statements/class/private-static-getter-non-static-setter-early-error.js  @negative
+1	language/statements/class/private-static-setter-non-static-getter-early-error.js  @negative
+1	language/statements/class/static-init-abrupt.js
+1	language/statements/class/static-init-arguments-functions.js
+1	language/statements/class/static-init-arguments-methods.js
+1	language/statements/class/static-init-await-binding-valid.js
+1	language/statements/class/static-init-expr-new-target.js
+1	language/statements/class/static-init-expr-this.js
+1	language/statements/class/static-init-scope-lex-close.js
+1	language/statements/class/static-init-scope-lex-derived.js
+1	language/statements/class/static-init-scope-lex-open.js
+1	language/statements/class/static-init-scope-private.js
+1	language/statements/class/static-init-scope-var-close.js
+1	language/statements/class/static-init-scope-var-derived.js
+1	language/statements/class/static-init-scope-var-open.js
+1	language/statements/class/static-init-sequence.js
+1	language/statements/class/static-init-statement-list-optional.js
+1	language/statements/class/static-init-super-property.js
+1	language/statements/const/static-init-await-binding-valid.js
+1	language/statements/do-while/tco-body.js  @onlyStrict
+1	language/statements/for-await-of/async-gen-decl-dstr-array-elem-iter-rtrn-close-null.js  async
+1	language/statements/for-of/head-lhs-async-invalid.js  @negative
+1	language/statements/for/tco-const-body.js  @onlyStrict
+1	language/statements/for/tco-let-body.js  @onlyStrict
+1	language/statements/for/tco-lhs-body.js  @onlyStrict
+1	language/statements/for/tco-var-body.js  @onlyStrict
+1	language/statements/function/static-init-await-binding-valid.js
+1	language/statements/if/tco-else-body.js  @onlyStrict
+1	language/statements/if/tco-if-body.js  @onlyStrict
+1	language/statements/labeled/tco.js  @onlyStrict
+1	language/statements/let/static-init-await-binding-valid.js
+1	language/statements/return/tco.js  @onlyStrict
+1	language/statements/switch/tco-case-body-dflt.js  @onlyStrict
+1	language/statements/switch/tco-case-body.js  @onlyStrict
+1	language/statements/switch/tco-dftl-body.js  @onlyStrict
+1	language/statements/try/static-init-await-binding-valid.js
+1	language/statements/try/tco-catch-finally.js  @onlyStrict
+1	language/statements/try/tco-catch.js  @onlyStrict
+1	language/statements/try/tco-finally.js  @onlyStrict
+1	language/statements/variable/dstr/ary-ptrn-elem-id-static-init-await-valid.js
+1	language/statements/variable/dstr/obj-ptrn-elem-id-static-init-await-valid.js
+1	language/statements/variable/static-init-await-binding-valid.js
+1	language/statements/while/tco-body.js  @onlyStrict
+1	language/types/reference/get-value-prop-base-primitive-realm.js
+1	language/types/reference/put-value-prop-base-primitive-realm.js

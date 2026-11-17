@@ -1,0 +1,8 @@
+fallback compile  28.210 →  27.699 ms | paired  +1.505 ms | CI95  -0.737 …  +1.995
+fallback eval     27.605 →  26.278 ms | paired  +1.762 ms | CI95  -0.258 …  +2.346
+late-fallback compile  31.407 →  31.300 ms | paired  +0.209 ms | CI95  -0.145 …  +0.594
+late-fallback eval     31.302 →  32.110 ms | paired  -0.273 ms | CI95  -1.424 …  +0.531
+mixed    compile  25.189 →  22.206 ms | paired  +2.972 ms | CI95  +2.678 …  +3.427
+mixed    eval     25.204 →  22.545 ms | paired  +2.674 ms | CI95  +2.326 …  +2.993
+ordinary compile  25.753 →  17.997 ms | paired  +8.153 ms | CI95  +7.242 …  +8.603
+ordinary eval     26.771 →  18.478 ms | paired  +7.812 ms | CI95  +6.953 …  +9.334
