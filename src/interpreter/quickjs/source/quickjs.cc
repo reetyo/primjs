@@ -83,6 +83,7 @@ extern "C" {
 
 #include "gc/global-handles.h"
 #include "gc/trace-gc.h"
+#include "quickjs-parser-lookahead.h"
 #include "quickjs/include/bignum.h"
 #include "quickjs/include/quickjs-inner.h"
 #include "quickjs/include/quickjs-opt-bytecode.h"
@@ -22592,6 +22593,7 @@ QJS_STATIC __exception int js_parse_postfix_expr(JSParseState *s,
     } break;
     case '(':
       if ((parse_flags & PF_ARROW_FUNC) &&
+          !primjs::CanSkipAssignmentLookahead(s->token.ptr, s->buf_end) &&
           js_parse_skip_parens_token(s, NULL, TRUE) == TOK_ARROW) {
         if (js_parse_function_decl(s, JS_PARSE_FUNC_ARROW, JS_FUNC_NORMAL,
                                    JS_ATOM_NULL, s->token.ptr,
@@ -22682,7 +22684,8 @@ QJS_STATIC __exception int js_parse_postfix_expr(JSParseState *s,
     case '{':
     case '[': {
       int skip_bits;
-      if (js_parse_skip_parens_token(s, &skip_bits, FALSE) == '=') {
+      if (!primjs::CanSkipAssignmentLookahead(s->token.ptr, s->buf_end) &&
+          js_parse_skip_parens_token(s, &skip_bits, FALSE) == '=') {
         if (js_parse_destructing_element(
                 s, 0, 0, FALSE, skip_bits & SKIP_HAS_ELLIPSIS, TRUE) < 0)
           return -1;
