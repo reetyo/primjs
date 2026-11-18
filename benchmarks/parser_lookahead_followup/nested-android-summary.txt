@@ -1,0 +1,6 @@
+nested-bundle compile wrappers 64.162 -> 50.183 ms, saving +14.449 ms [+13.380, +15.890]
+nested-bundle compile token-kinds 64.162 -> 65.321 ms, saving -0.782 ms [-1.866, +0.483]
+nested-bundle compile both 64.162 -> 49.476 ms, saving +14.822 ms [+11.457, +15.911]
+nested-bundle eval wrappers 65.126 -> 51.173 ms, saving +14.212 ms [+13.079, +15.431]
+nested-bundle eval token-kinds 65.126 -> 65.379 ms, saving +0.189 ms [-0.123, +1.149]
+nested-bundle eval both 65.126 -> 50.311 ms, saving +14.864 ms [+14.449, +15.724]

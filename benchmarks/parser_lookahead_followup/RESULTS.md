@@ -1,18 +1,23 @@
 # PrimJS parser lookahead follow-up results
 
-Each independently generated JavaScript input is about 2.1 MB. The table
+The four independently generated JavaScript inputs are about 2.1 MB each. The table
 reports paired median savings when both follow-up optimizations are enabled.
 Positive values indicate lower elapsed time. Asterisks mark intervals that
 include zero. All quantities are in milliseconds.
 
 | Workload | macOS compile | macOS source eval | Android compile | Android source eval |
 | --- | ---: | ---: | ---: | ---: |
+| Nested bundle | 17.48 | 18.00 | 14.82 | 14.86 |
 | Function and arrow wrappers | 14.18 | 14.37 | 12.05 | 11.84 |
 | Mixed expressions | 7.40 | 7.56 | 8.53 | 7.95 |
 | Object with token fallback | 0.16* | -0.05* | 0.95* | 0.71 |
 
+The nested bundle uses 12 paired rounds and five samples per configuration
+per round. For source evaluation, the intervals with both optimizations
+are 17.08 to 18.93 ms on macOS and 14.45 to 15.72 ms on Android.
+
 The wrapper prefix check accounts for most of the measured savings. The
-confidence intervals for token kinds alone include zero on all three
+confidence intervals for token kinds alone include zero on all four
 inputs and both platforms. These measurements describe the generated
 workloads and the engine timing region.
 

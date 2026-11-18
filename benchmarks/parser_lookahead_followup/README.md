@@ -107,3 +107,21 @@ contexts. Inputs are read outside the timer. Compilation uses
 and verifies the result. No code cache is supplied. Reported savings are
 the median of differences between paired round medians. The intervals
 are 95% percentile bootstrap intervals across rounds.
+
+## Nested bundle
+
+This additional 2,136,122-byte input has two enclosing IIFEs, a third
+smaller IIFE, and large nested object literals with template and RegExp
+literals. It is generated from scratch with catalog-style methods and
+rules. It uses the same runner and four settings as the other workloads,
+with twelve balanced rounds and five samples per configuration per round.
+
+```sh
+python3 "$EVIDENCE/generate_nested_bundle.py" "$EVIDENCE/nested-workload/nested-bundle.js"
+shasum -a 256 "$EVIDENCE/nested-workload/nested-bundle.js"
+
+python3 "$EVIDENCE/run_large_ab.py" "$PRIMJS/out/Release/eval_bench" "$EVIDENCE/nested-workload" "$EVIDENCE/nested-macos.csv" --rounds 12 --samples 5
+
+adb -s "$SERIAL" push "$EVIDENCE/nested-workload/nested-bundle.js" "$REMOTE/"
+python3 "$EVIDENCE/run_large_ab.py" "$REMOTE/eval_bench" "$EVIDENCE/nested-workload" "$EVIDENCE/nested-android.csv" --adb "$(command -v adb)" "$SERIAL" --rounds 12 --samples 5
+```
