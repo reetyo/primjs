@@ -1,0 +1,6 @@
+Mode 0. Result: 1289/39614 errors, 1314 excluded, 5718 skipped
+Mode 3. Result: 1289/39614 errors, 1314 excluded, 5718 skipped
+baseline: 1289 errors in 1289 tests
+patch:    1289 errors in 1289 tests
+new: {}
+removed: {}

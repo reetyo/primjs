@@ -1,0 +1,17 @@
+diff --git a/src/interpreter/quickjs/source/quickjs.cc b/src/interpreter/quickjs/source/quickjs.cc
+index e6fafa5..dc17c4a 100644
+--- a/src/interpreter/quickjs/source/quickjs.cc
++++ b/src/interpreter/quickjs/source/quickjs.cc
+@@ -31788,9 +31788,9 @@ void js_parse_init(LEPUSContext *ctx, JSParseState *s, const char *input,
+   memset(s, 0, sizeof(*s));
+   s->ctx = ctx;
+   s->filename = filename;
+-  if (GetSettingsWithKey(primjs::kFastParserLookaheadSetting)) {
+-    s->experimental_lookahead =
+-        primjs::kSkipWrappedExpression | primjs::kUseTokenKinds;
++  const char* mode = std::getenv("PRIMJS_BENCH_LOOKAHEAD");
++  if (mode && mode[0] >= '0' && mode[0] <= '3' && mode[1] == '\0') {
++    s->experimental_lookahead = mode[0] - '0';
+   }
+   s->line_num = 1 + start_line_number;
+   s->buf_ptr = (const uint8_t *)input;
