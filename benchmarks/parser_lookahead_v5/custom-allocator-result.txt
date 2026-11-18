@@ -1,0 +1,2 @@
+mode=GC first_host_on=3 direct_host_off=3 normal_host_off=0
+mode=RC first_host_on=3 direct_host_off=3 normal_host_off=0
