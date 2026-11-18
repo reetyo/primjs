@@ -16,4 +16,4 @@ __attribute__((weak)) void MonitorDuration(const char*, const char*,
                                            const char*, double) {}
 
 __attribute__((weak)) int GetSettingsFlag() { return 0; }
-bool GetSettingsWithKey(const char* key) { return false; }
+__attribute__((weak)) bool GetSettingsWithKey(const char* key) { return false; }

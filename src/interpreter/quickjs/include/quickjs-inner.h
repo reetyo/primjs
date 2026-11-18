@@ -553,6 +553,9 @@ struct LEPUSRuntime {
 #endif
   JSStrCacheOrphan *str_cache_orphans;
   bool uswap_in_progress;
+  // Appended to keep existing field offsets. primjs::kSkipWrappedExpression
+  // etc., read once when the runtime is created.
+  uint8_t parser_lookahead_flags;
 };
 
 // Temporarily attributes allocations to the Runtime-wide common memory slot.
@@ -2944,7 +2947,8 @@ QJS_HIDE int js_parse_seek_token(JSParseState *s, const JSParsePos *sp);
 QJS_HIDE int js_parse_regexp(JSParseState *s);
 QJS_HIDE int js_parse_skip_parens_token(JSParseState *s, int *pbits,
                                         BOOL no_line_terminator,
-                                        BOOL *has_ellipsis = nullptr);
+                                        BOOL *has_ellipsis = nullptr,
+                                        bool token_kinds_only = false);
 QJS_HIDE int js_resize_array(LEPUSContext *ctx, void **parray, int elem_size,
                              int *psize, int *pcount, int new_count,
                              int alloc_tag);
@@ -3141,6 +3145,7 @@ typedef struct JSParseState {
   JSFunctionDef *cur_func;
   BOOL is_module; /* parsing a module */
   BOOL allow_html_comments;
+  uint8_t experimental_lookahead;
 } JSParseState;
 #endif
 QJS_HIDE LEPUSValue js_finalizationRegistry_unregister(LEPUSContext *ctx,
